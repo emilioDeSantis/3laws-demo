@@ -94,7 +94,6 @@ body {
     )
     rgb(var(--background-start-rgb));
     font-family: 'Inter', sans-serif;
-    color: white,
 }
 
 a {
