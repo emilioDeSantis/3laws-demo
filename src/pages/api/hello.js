@@ -1,13 +1,15 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import fetch from 'node-fetch';
 
-import { httpProxyMiddleware } from 'http-proxy-middleware';
-
-export default (req, res) => httpProxyMiddleware(req, res, {
-  // You can use the `http-proxy` option
-  target:'https://emilio5139.wixsite.com/test',
-  // In addition, you can use the `pathRewrite` option provided by `next-http-proxy`
-  pathRewrite: {
-  '^/api/google':'https://google.com',
-  '^/api/myhome':'https://github.com/stegano'
-  },
-});
+export default async (req, res) => {
+  const url = 'https://www.3lawsrobotics.io/' + req.url;
+  const options = {
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+    }
+  };
+  const response = await fetch(url, options);
+  const data = await response.json();
+  res.status(response.status).json(data);
+};
