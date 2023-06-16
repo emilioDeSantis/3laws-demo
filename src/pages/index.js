@@ -111,15 +111,15 @@ export default function HomePage() {
                 </div>
                 <div
                     style={{
-                        color: "grey",
+                        color: "#fff9",
                         display: "flex",
                         gap: "4vw",
                     }}
                 >
-                    <button style={{ fontSize: "1vw" }}>Home</button>
-                    <button style={{ fontSize: "1vw" }}>Tech</button>
-                    <button style={{ fontSize: "1vw" }}>Contact</button>
-                    <button style={{ fontSize: "1vw" }}>About</button>
+                    <div style={{ fontSize: "1vw" }}>Home</div>
+                    <div style={{ fontSize: "1vw" }}>Tech</div>
+                    <div style={{ fontSize: "1vw" }}>Contact</div>
+                    <div style={{ fontSize: "1vw" }}>About</div>
                 </div>
             </div>
             <div
