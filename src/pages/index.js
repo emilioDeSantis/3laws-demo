@@ -49,7 +49,9 @@ export default function HomePage() {
     }, []);
 
     return (
-        <div>
+        <div style={{
+            color: 'white',
+        }}>
             <div
                 style={{
                     position: "fixed",
