@@ -35,7 +35,7 @@ export default function HomePage() {
                 const scrollPos = window.pageYOffset;
                 const maxScrollPos =
                     document.body.scrollHeight - window.innerHeight;
-                const scrollPercent = scrollPos / 140;
+                const scrollPercent = scrollPos / 700;
 
                 videoRef.current.currentTime = videoTimeMapping(scrollPercent);
                 // videoRef.current.currentTime = scrollPercent;
@@ -125,7 +125,7 @@ export default function HomePage() {
             <div
                 style={{
                     width: "100vw",
-                    height: "3000px",
+                    height: "15000px",
                     display: "flex",
                     flexDirection: "column",
                     position: "absolute",
@@ -215,8 +215,8 @@ export default function HomePage() {
                 text="In a dynamic world, robots encounter barriers blocking there ideal path."
                 color="#FFC875"
                 scrollPosition={scrollPosition}
-                scrollStart={380}
-                scrollEnd={580}
+                scrollStart={380*5}
+                scrollEnd={580*5}
             />
             <NumberedTitle
                 number={2}
@@ -224,8 +224,8 @@ export default function HomePage() {
                 text="Hazardous and costly collisions can be avoided with ease using 3Laws’ state of the art collision avoidance algorithm."
                 color="#FF6661"
                 scrollPosition={scrollPosition}
-                scrollStart={950}
-                scrollEnd={1150}
+                scrollStart={950*5}
+                scrollEnd={1150*5}
             />
             <NumberedTitle
                 number={3}
@@ -233,8 +233,8 @@ export default function HomePage() {
                 text="Our product allows your robot to avoid obstacles while still reaching its goal ensuring the safety of your robot and everyone and everything around it."
                 color="#66FFFE"
                 scrollPosition={scrollPosition}
-                scrollStart={1880}
-                scrollEnd={100000}
+                scrollStart={1880*5}
+                scrollEnd={100000*5}
             />
 
         <div
