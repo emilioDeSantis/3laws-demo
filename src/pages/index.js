@@ -1289,9 +1289,10 @@ export default function HomePage() {
                     <div
                         style={{
                             fontWeight: 300,
-                            fontSize: "0.7vw",
+                            fontSize: "0.9vw",
                             letterSpacing: "0.08em",
                             lineHeight: "220%",
+                            width: '40vw',
                             opacity: 0.8,
                         }}
                     >
@@ -1304,7 +1305,7 @@ export default function HomePage() {
                             marginTop: "1.5vw",
                             background: "#5855EB",
                             fontWeight: 300,
-                            fontSize: "0.7vw",
+                            fontSize: "0.9vw",
                             letterSpacing: "0.12em",
                             textAlign: "center",
                             paddingBlock: "1vw",
