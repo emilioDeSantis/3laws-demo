@@ -1463,7 +1463,7 @@ export default function HomePage() {
                         fontSize: "3.2vw",
                         width: "36vw",
                         opacity:
-                            scrollPosition > 9.190 && scrollPosition < 1.0800
+                            scrollPosition > 9.190 && scrollPosition < 10.800
                                 ? "100%"
                                 : 0,
                         transition: "opacity 0.3s ease-in-out",
