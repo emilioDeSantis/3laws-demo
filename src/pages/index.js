@@ -1173,7 +1173,7 @@ export default function HomePage() {
                         objectFit: "cover",
                         mixBlendMode: "screen",
                     }}
-                    src="/0000-0420 copy.mp4"
+                    src="/0000-0400 copy 3.mp4"
                     type="video/mp4"
                 />
             </div>
@@ -1209,7 +1209,7 @@ export default function HomePage() {
                             fontSize: "0.55vw",
                         }}
                     >
-                        ROBOTICS
+                        ROBOTICS {scrollPosition}
                     </p>
                 </div>
                 <div
@@ -1329,14 +1329,14 @@ export default function HomePage() {
             />
             <Section
                 right={true}
-                marginTop={"370vw"}
+                marginTop={"355vw"}
                 title={"Disruption"}
                 text={
                     "Accidents can result in costly downtime, equipment damage, and potential risk to human safety."
                 }
             />
             <Section
-                marginTop={"630vw"}
+                marginTop={"590vw"}
                 title={"Introducing 3Laws"}
                 text={
                     "Our robust safety system effortlessly navigates and mitigates the risks of the dynamic robotic environment."
@@ -1344,7 +1344,7 @@ export default function HomePage() {
             />
             <Section
                 right={true}
-                marginTop={"1230vw"}
+                marginTop={"1160vw"}
                 title={"Certified"}
                 text={
                     "3Laws takes the complexity out of safety. Achieve swift, hassle-free certification for your robots while smoothly avoiding obstacles."
@@ -1432,14 +1432,14 @@ export default function HomePage() {
                         fontSize: "3.2vw",
                         width: "36vw",
                         opacity:
-                            scrollPosition > 7.080 && scrollPosition < 8.200
+                            scrollPosition > 7.080 && scrollPosition < 7.750
                                 ? "100%"
                                 : 0,
                         transition: "opacity 0.3s ease-in-out",
                         fontFamily: "space mono",
                         color: "#9f9",
-                        marginLeft: "18vw",
-                        marginTop: "24vw",
+                        marginLeft: "20vw",
+                        marginTop: "20vw",
                         lineHeight: "90%",
                     }}
                 >
@@ -1464,7 +1464,7 @@ export default function HomePage() {
                         fontSize: "3.2vw",
                         width: "36vw",
                         opacity:
-                            scrollPosition > 9.190 && scrollPosition < 10.800
+                            scrollPosition > 8.375 && scrollPosition < 10.1
                                 ? "100%"
                                 : 0,
                         transition: "opacity 0.3s ease-in-out",
@@ -1495,7 +1495,7 @@ export default function HomePage() {
                         fontSize: "3.2vw",
                         width: "36vw",
                         opacity:
-                            scrollPosition > 11.270 && scrollPosition < 12.200
+                            scrollPosition > 10.42 && scrollPosition < 11.2
                                 ? "100%"
                                 : 0,
                         transition: "opacity 0.3s ease-in-out",
@@ -1526,7 +1526,7 @@ export default function HomePage() {
                         fontSize: "3.2vw",
                         width: "36vw",
                         opacity:
-                            scrollPosition > 16.200 && scrollPosition < 17.000
+                            scrollPosition > 15.3 && scrollPosition < 16.000
                                 ? "100%"
                                 : 0,
                         transition: "opacity 0.3s ease-in-out",
