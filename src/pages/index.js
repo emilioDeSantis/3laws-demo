@@ -1378,7 +1378,7 @@ export default function HomePage() {
                         lineHeight: "90%",
                     }}
                 >
-                    Disabled
+                    Collision
                 </div>
             </div>
 
