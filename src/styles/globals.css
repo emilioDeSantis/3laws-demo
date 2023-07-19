@@ -93,7 +93,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'Inter', sans-serif;
+    font-family: 'Korataki';
 }
 
 a {
@@ -105,6 +105,23 @@ button {
   background: none;
   border: none;
 }
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pulsing-element {
+  animation: pulse 1.8s infinite ease-in-out;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
