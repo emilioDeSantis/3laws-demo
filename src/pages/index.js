@@ -1443,7 +1443,7 @@ export default function HomePage() {
                         lineHeight: "90%",
                     }}
                 >
-                    ready
+                    Ready
                 </div>
             </div>
 
